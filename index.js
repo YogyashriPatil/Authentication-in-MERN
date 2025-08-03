@@ -27,9 +27,8 @@ app.get('/yogyashri', (req,res) => {
     res.send("Yogayshri");
 })
 
-app.get('/khushi', (req,res) => {
-    res.send("Yogayshri");
-})
+//connect to db
+db();
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
