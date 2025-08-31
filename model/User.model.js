@@ -28,4 +28,4 @@ const userSchema= new mongoose.Schema({
 //timestamps added 2 extra field that added createdAT or updated add
 const User= mongoose.model("User",userSchema)
 
-export default User
+export default User;
